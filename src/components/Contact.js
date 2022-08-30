@@ -1,6 +1,6 @@
 const Contact = ({ contact }) => {
   return (
-    <div className="Contact flexbox-container section" id="CONTACT">
+    <div className="Contact flexbox-container section">
       {/*{contact.map((contact, index) => (*/}
       <>
         {contact[0].linkedIn && (

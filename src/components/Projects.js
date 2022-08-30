@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = ({ projects }) => {
   return (
-    <div className="Projects" id="PROJECT">
+    <div className="Projects">
       {projects.map((project, index) => (
         <Project
           key={index}
@@ -15,6 +15,8 @@ const Projects = ({ projects }) => {
           external={project.external}
           video={project.video}
           figma={project.figma}
+          slides={project.slides}
+          word={project.word}
         />
       ))}
     </div>

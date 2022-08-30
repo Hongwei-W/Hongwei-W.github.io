@@ -88,6 +88,11 @@ html {
     justify-content: space-between;
 }
 
+.Divider {
+    flex-direction: row;
+    justify-content: center
+}
+
 .project-description, .project-link, .job-description, .job-link{
     flex-direction: column;
     justify-content: flex-start;
@@ -105,8 +110,19 @@ html {
     font-weight: bold;;
 }
 
+.t3 {
+    font-size: 1.2rem;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: bold;
+}
 
 
+
+
+.Divider {
+    margin-bottom: -2rem;
+}
 
 .Intro {
     column-gap: 20px;
@@ -136,7 +152,7 @@ html {
     line-height: 1.5rem;
 }
 
-.Educations .flexbox-container {
+.Educations .education {
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
@@ -149,7 +165,7 @@ html {
 
 
 .Project .image, .Job .image {
-    max-height: 200px;
+    max-height: 300px;
 }
 
 .Project img, .Job img {
@@ -170,6 +186,10 @@ html {
 .Project i, .Job i {
     font-size: 1.5rem;
     color: black;
+}
+
+.Project .project-link {
+    row-gap: 1.2rem;
 }
 
 .Contact {
