@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = ({ projects }) => {
   return (
-    <div className="Projects">
+    <div className="Projects" id="PROJECT">
       {projects.map((project, index) => (
         <Project
           key={index}

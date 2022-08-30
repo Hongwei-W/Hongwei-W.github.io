@@ -2,7 +2,7 @@ import Job from "./Job";
 
 const Jobs = ({ jobs }) => {
   return (
-    <div className="Jobs">
+    <div className="Jobs" id="WORK">
       {jobs.map((job, index) => (
         <Job
           key={index}

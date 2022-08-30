@@ -2,7 +2,7 @@ import hongwei from "../static/img/hongwei.JPG";
 
 const Intro = () => {
   return (
-    <div className="Intro flexbox-container">
+    <div className="Intro flexbox-container" id="INTRO">
       <div className="image">
         <img
           alt="A photo of Hongwei stands at the spiral stairs at JW Marriott Edmonton"

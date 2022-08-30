@@ -1,13 +1,21 @@
 import PropTypes from "prop-types";
 
-const NavButton = ({text}) => {
-    return (
-        <button className='btn'>{text}</button>
-    )
-}
+const NavButton = ({ text }) => {
+  return (
+    <button
+      className="btn"
+      onClick={(e) => {
+        e.preventDefault();
+        window.location.href = "#" + text;
+      }}
+    >
+      {text}
+    </button>
+  );
+};
 
 NavButton.propTypes = {
-    text: PropTypes.string,
-}
+  text: PropTypes.string,
+};
 
-export default NavButton
+export default NavButton;
