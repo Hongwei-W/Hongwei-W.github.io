@@ -137,7 +137,7 @@ function App() {
       <Projects projects={projects} />
       <Divider text="work (coming soon...)" id="WORK" />
       <Jobs jobs={jobs} />
-      <Divider text="contact (coming soon...)" id="CONTACT" />
+      <Divider text="contact" id="CONTACT" />
       <Contact contact={contact} />
     </div>
   );
