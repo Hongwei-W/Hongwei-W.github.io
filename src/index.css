@@ -78,7 +78,7 @@ html {
 
 /* flexbox */
 
-.Nav, .Intro, .Project, .Job, .Contact {
+.Nav, .Intro, .Project, .Contact{
     flex-direction: row;
     justify-content: space-between;
 }
@@ -93,20 +93,29 @@ html {
     justify-content: center
 }
 
-.project-description, .project-link, .job-description, .job-link{
+.project-description, .project-link, .job-description, .job-link, .job-header{
     flex-direction: column;
     justify-content: flex-start;
 }
 
+.job-header{
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
-/* self-def class */
+.job-header .image {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+    /* self-def class */
 .t1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .t2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;;
 }
 
@@ -117,7 +126,13 @@ html {
     font-weight: bold;
 }
 
+a {
+    color: black;
+}
 
+a:hover {
+    color: #00000066;
+}
 
 
 .Divider {
@@ -160,15 +175,20 @@ html {
 }
 
 .Educations img{
-    max-height: 100px;
+    max-width: 20%;
+    margin: 1rem 0;
 }
 
 
-.Project .image, .Job .image {
-    max-height: 300px;
+.Project .image{
+    max-height: 18rem;
 }
 
-.Project img, .Job img {
+.Project {
+    align-items: center;
+}
+
+.Project img {
     max-width:100%;
     max-height:100%;
     overflow: hidden;
@@ -180,7 +200,7 @@ html {
 }
 
 .Project .project .sub-list-item:not(:last-child), .Job .job .sub-list-item:not(:last-child) {
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 .Project i, .Job i {
@@ -190,6 +210,32 @@ html {
 
 .Project .project-link {
     row-gap: 1.2rem;
+}
+
+.Project .description, .Job .description {
+    white-space: pre-line;
+    vertical-align: bottom;
+}
+
+.job {
+    flex-grow: 1;
+}
+
+.Job .job-link {
+    width: 3rem;
+}
+
+.Job .job-header .text {
+    flex-grow: 1;
+}
+
+.Job .job-header .image {
+    max-height: 3rem;
+    max-width: 25rem;
+}
+
+.Job .job-header img {
+    max-height: 100%;
 }
 
 .Contact {

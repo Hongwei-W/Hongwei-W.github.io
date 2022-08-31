@@ -13,10 +13,17 @@ const Intro = () => {
         <span>
           <span className="t3">Hongwei Wang</span> (pronoun: he/him) is a
           fourth-year Computing Science student at the University of Alberta. He
-          is also a current Research Assistant in Dr. Xing-dong Yang's (Simon
-          Fraser University - ixLab) group and Dr. Carrie Demmans Epp's
-          (University of Alberta - EdTeKLA) Group. He has a special interest in
-          Human-Computer Interaction (HCI) and accessibility tools.
+          is also a current Research Assistant in{" "}
+          <a href="https://www.sfu.ca/~xingdong/">Dr. Xing-dong Yang's</a>{" "}
+          (Simon Fraser University -{" "}
+          <a href="https://ixlab.cs.sfu.ca/">ixLab</a>) group and{" "}
+          <a href="https://apps.ualberta.ca/directory/person/demmanse">
+            Dr. Carrie Demmans Epp's
+          </a>{" "}
+          (University of Alberta -{" "}
+          <a href="https://spaces.facsci.ualberta.ca/edtekla/">EdTeKLA</a>)
+          Group. He has a special interest in Human-Computer Interaction (HCI)
+          and accessibility tools.
           <br />
           <br />
           Other than Computing Science, he is interested in Hotel Management. He

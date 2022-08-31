@@ -16,6 +16,8 @@ const Jobs = ({ jobs }) => {
           external={job.external}
           video={job.video}
           figma={job.figma}
+          word={jobs.word}
+          slides={jobs.slides}
         />
       ))}
     </div>

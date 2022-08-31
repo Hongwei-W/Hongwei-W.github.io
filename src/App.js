@@ -7,6 +7,12 @@ import projectHomepage from "./static/img/project_homepage.png";
 import projectAccessible from "./static/img/project_accessible.png";
 import projectSocial from "./static/img/project_social.png";
 import projectDental from "./static/img/project_dental.png";
+import projectHabit from "./static/img/project_habit.png";
+import jobSFU from "./static/img/job_SFU.png";
+import jobEMQ from "./static/img/job_EMQ.png";
+import jobAbercrombie from "./static/img/job_abercrombie.png";
+import jobUAlberta from "./static/img/job_UAlberta.png";
+
 import { useState } from "react";
 import Projects from "./components/Projects";
 import Jobs from "./components/Jobs";
@@ -22,7 +28,7 @@ function App() {
       },
       infos: [
         "University of Alberta",
-        "Bachelor of Science Honors",
+        "Bachelor of Science - Honors",
         "Computing Science",
         "2019-2023",
       ],
@@ -45,7 +51,7 @@ function App() {
       github: {
         url: "https://github.com/Hongwei-W",
       },
-      completionDate: "Constantly Update",
+      completionDate: "Constantly Updating",
     },
     {
       image: {
@@ -57,7 +63,8 @@ function App() {
         "This Chrome Extension helps the d/Deaf and hard-of-hearing (DHH) community participate and present on Google Meet. Accessible Classroom automatically measures your voice volume and speech rate; it analyzes meeting participation and voice vs text chat usage; it also gives DHH people a chance to raise their accessibility accommodation requests and draw everyone's attention if there is a violation. By using this Extension, Hongwei hopes that the accommodation requests can be more respected by hearing people.",
       skillSet: "Google Sheet (App Script), HTML/CSS, JavaScript, Bootstrap",
       github: {
-        url: "https://github.com/Hongwei-W/accessible_classroom",
+        // url: "https://github.com/Hongwei-W/accessible_classroom",
+        title: "GitHub (coming soon)",
       },
       completionDate: "Aug. 2022",
     },
@@ -87,34 +94,99 @@ function App() {
       title: "Dental Check -- A Human-Centered Software Prototype",
       description:
         "With Dental Check, dentists can track patients' records on an iPad. After dentists fill out periodontal charts, the system automatically builds an interactive 3D model of the patient's teeth. Build-in AI analyzer finds out lesions that are worth noticing and marks with colors. Dentists can interact with the model and edit these marks, they can also compare one patient's previous records by layering one on top of the others. Patients can also track their dentistry visits by creating their accounts and seeing their model on the dentists' permit.",
-      skillSet:
-        "Figma, Human-Centered Design, Usability Research (Cognitive Walk through, Wizard of Oz, Thank Aloud)",
+      skillSet: "Figma, Human-Centered Design, Usability Research",
       completionDate: "Apr. 2022",
       figma: {
         // url: "https://www.figma.com/file/wjbruG8Ndb4q5opftJos4R/Dental-Check?node-id=0%3A1",
         // title: "Figma Interactive Prototype",
-        title: "Figma Interactive Prototype (come back later)",
+        title: "Figma Interactive Prototype (coming soon)",
       },
       slides: {
         // url: "https://docs.google.com/presentation/d/1PTpWswLwuLzsqJz7TBFP6K1iuU8yEPU5/edit?usp=sharing&ouid=117905099578856205481&rtpof=true&sd=true",
         // title: "Project Presentation Slides",
-        title: "Project Presentation Slides (come back later)",
+        title: "Project Presentation Slides (coming soon)",
       },
       word: {
         // url: "https://docs.google.com/document/d/1rQs8atM8m7btMVb658ghpTFUVqzc5xVX/edit?usp=sharing&ouid=117905099578856205481&rtpof=true&sd=true",
         // title: "Prototype in Word Document",
-        title: "Prototype in Word Document (come back later)",
+        title: "Prototype in Word Document (coming soon)",
+      },
+    },
+    {
+      image: {
+        src: projectHabit,
+        alt: "a screenshot showing that an Android App is being designed, the Android Studio app is opened and a mock phone is layer on top of Android Studio",
+      },
+      title: "Habit Tracker -- An Android App",
+      description:
+        "Habit Tracker is an app that allows users to write a habit, set a goal, and track its progress. It also allows users to see others' habits with the owner's permission. Habit Tracker integrates Google Map APIs and can store photos so that you can recall your completion vividly. ",
+      skillSet: "Java, OOP Principles, Android Studio, UI/Unit Testing",
+      completionDate: "Dec. 2021",
+      github: {
+        url: "https://github.com/CMPUT301F21T28/habit_tracker",
       },
     },
   ]);
 
   const [jobs, setJobs] = useState([
     {
+      image: {
+        src: jobSFU,
+        alt: "Simon Fraser University school logo, short hand 'SFU' on the top within a red box, school full name at the buttom",
+      },
       title: "Research Assistant",
-      description: "Other Work Experience WIP",
+      description:
+        "· Formulated prototype features and designed through 50 literature reviews and user surveys\n" +
+        "· Iteratively developed a Chrome Extension that was used by 20 participants with JS and Google Sheet backend\n" +
+        "· Led user studies for multiple sessions and drafted paper manuscript, pending submission to ACM CHI",
       company: "Simon Fraser University",
       interval: "Jun. 2022 - Now",
-      github: "https://github.com/Hongwei-W/accessible_classroom",
+      github: {
+        // url: "https://github.com/Hongwei-W/accessible_classroom",
+        title: "GitHub (coming soon)",
+      },
+    },
+    {
+      image: {
+        src: jobUAlberta,
+        alt: "UAlberta school logo, the logo is on the right, the school full name is on the right",
+      },
+      title: "Research Assistant",
+      description:
+        "· Refactored user study prototype database, connected NLP model\n",
+      company: "University of Alberta",
+      interval: "Sep. 2022 - Now",
+    },
+    {
+      image: {
+        src: jobEMQ,
+        alt: 'EMQ logo, "E", "M", "Q", three letters in the image, "E" has a design of three vertical bars',
+      },
+      title: "Software Developer",
+      description:
+        "· Achieved top 3 contributor by delivering 3 major reliable features according to MQTT protocol in C\n" +
+        "· Designed and carried out product’s interface and documentation by iteratively researching needs and feedback\n" +
+        "· Efficiently communicated with the manager for prioritized tickets and sprints with scrum practices and agile tools\n" +
+        "· Launched 1 major release (0.3.2) with the assistance of the manager and reached 400+ GitHub starred users",
+      company: "EMQ Co. Ltd.",
+      interval: "Jan. 2021 - Jul. 2021",
+      github: {
+        url: "https://github.com/emqx/nanomq/pulls?q=is%3Apr+is%3Aclosed+author%3AHongwei-W",
+        title: "My GitHub Pull Requests",
+      },
+    },
+    {
+      image: {
+        src: jobAbercrombie,
+        alt: "Abercrombie & Fitch company logo, with it for sub-brands 2. Abercrombie Kids, 3. Hollister, 4. Gilly Hicks in the bottom",
+      },
+      title: "Sales & Stock Associate",
+      description:
+        "· Crushed morning MVT and ATV multiple times by identifying customers’ segments and providing useful one-on-one outfit recommendations\n" +
+        "· Awarded store MVP 2 times and facilitated training employees with managers with proven communication skills\n" +
+        "· Promoted to permanent from seasonal employee and awarded store MVP within the first month of job started",
+      company: "Abercrombie & Fitch Edmonton + Hollister Qingdao",
+      interval: "Jul. 2018 – Oct. 2020",
     },
   ]);
 
@@ -135,7 +207,7 @@ function App() {
       <Educations educations={educations} />
       <Divider text="project" id="PROJECT" />
       <Projects projects={projects} />
-      <Divider text="work (coming soon...)" id="WORK" />
+      <Divider text="work" id="WORK" />
       <Jobs jobs={jobs} />
       <Divider text="contact" id="CONTACT" />
       <Contact contact={contact} />
