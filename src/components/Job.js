@@ -76,7 +76,8 @@ const Job = ({
             <div className="text">
               <div className="t1">{title}</div>
               <div className="">
-                <span className="company">{company}</span>&nbsp;
+                <span className="company">{company}</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="interval">{interval}</span>
               </div>
             </div>
