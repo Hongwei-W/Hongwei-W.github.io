@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.47b26b30.css",
+    "main.css": "/static/css/main.6ecc0133.css",
     "main.js": "/static/js/main.1590a20b.js",
     "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
     "static/media/project_homepage.png": "/static/media/project_homepage.a95320a8f25fb03de84e.png",
@@ -13,12 +13,12 @@
     "static/media/ualberta_logo.png": "/static/media/ualberta_logo.e9f576e637e98be7afb8.png",
     "static/media/job_SFU.png": "/static/media/job_SFU.ae7ef8d8c6a6fdf295a8.png",
     "index.html": "/index.html",
-    "main.47b26b30.css.map": "/static/css/main.47b26b30.css.map",
+    "main.6ecc0133.css.map": "/static/css/main.6ecc0133.css.map",
     "main.1590a20b.js.map": "/static/js/main.1590a20b.js.map",
     "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b26b30.css",
+    "static/css/main.6ecc0133.css",
     "static/js/main.1590a20b.js"
   ]
 }
