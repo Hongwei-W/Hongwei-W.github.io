@@ -211,6 +211,7 @@ a:hover {
 
 .Project .project-link {
     row-gap: 1.2rem;
+    text-align: right;
 }
 
 .Project .description, .Job .description {

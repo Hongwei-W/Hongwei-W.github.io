@@ -36,22 +36,33 @@ function App() {
   ]);
 
   const [projects, setProjects] = useState([
+    // {
+    //   image: {
+    //     src: projectHomepage,
+    //     alt: "my homepage screenshot, with Navigation bar on the top, my portrait in the middle left and my intro in the middle right, my education experience (University of Alberta) by the end of the page",
+    //   },
+    //   title: "Hongwei's Homepage",
+    //   description:
+    //     "Hongwei's homepage introduces some basic facts about Hongwei, it is also a showcase for him: what projects, jobs, and skills he has. He thought a one-page resume is too small a space to see a person fully.",
+    //   external: {
+    //     url: "/",
+    //   },
+    //   skillSet: "React, HTML/CSS, Bootstrap, Google Domain",
+    //   github: {
+    //     url: "https://github.com/Hongwei-W",
+    //   },
+    //   completionDate: "Constantly Updating",
+    // },
     {
-      image: {
-        src: projectHomepage,
-        alt: "my homepage screenshot, with Navigation bar on the top, my portrait in the middle left and my intro in the middle right, my education experience (University of Alberta) by the end of the page",
-      },
-      title: "Hongwei's Homepage",
+      title: "PSRS Parallel Sorting by Random Sampling Algorithm Implementation",
       description:
-        "Hongwei's homepage introduces some basic facts about Hongwei, it is also a showcase for him: what projects, jobs, and skills he has. He thought a one-page resume is too small a space to see a person fully.",
-      external: {
-        url: "/",
+        "Implemented SPMD program that reached 5 times speedup on a shared memory multi-processor system, with C++ and pthread library",
+      word: {
+        url: "https://drive.google.com/file/d/1RyFB7Fn5Uoo6dcg9H9EfRiWwP61RPPxQ/view?usp=sharing",
+        title: "Implementation Report"
       },
-      skillSet: "React, HTML/CSS, Bootstrap, Google Domain",
-      github: {
-        url: "https://github.com/Hongwei-W",
-      },
-      completionDate: "Constantly Updating",
+      skillSet: "C++, pthread (multi-threading), Linux",
+      completionDate: "Sep. 2022",
     },
     {
       image: {
@@ -60,12 +71,12 @@ function App() {
       },
       title: "Accessible Remote Classroom Chrome Extension",
       description:
-        "This Chrome Extension helps the d/Deaf and hard-of-hearing (DHH) community participate and present on Google Meet. Accessible Classroom automatically measures your voice volume and speech rate; it analyzes meeting participation and voice vs text chat usage; it also gives DHH people a chance to raise their accessibility accommodation requests and draw everyone's attention if there is a violation. By using this Extension, Hongwei hopes that the accommodation requests can be more respected by hearing people.",
+        "This Chrome Extension helps the d/Deaf and hard-of-hearing (DHH) community participate and present on Google Meet. Accessible Classroom automatically measures your voice volume and speech rate, analyzes meeting participation and voice vs text chat usage, gives DHH people a chance to raise their accessibility accommodation and draw everyone's attention if there is a violation. Demo and application are available upon request.",
       skillSet: "Google Sheet (App Script), HTML/CSS, JavaScript, Bootstrap",
-      github: {
-        // url: "https://github.com/Hongwei-W/accessible_classroom",
-        title: "GitHub (coming soon)",
-      },
+      // github: {
+      //   url: "https://github.com/Hongwei-W/accessible_classroom",
+      //   title: "GitHub",
+      // },
       completionDate: "Aug. 2022",
     },
     {
@@ -97,19 +108,16 @@ function App() {
       skillSet: "Figma, Human-Centered Design, Usability Research",
       completionDate: "Apr. 2022",
       figma: {
-        // url: "https://www.figma.com/file/wjbruG8Ndb4q5opftJos4R/Dental-Check?node-id=0%3A1",
-        // title: "Figma Interactive Prototype",
-        title: "Figma Interactive Prototype (coming soon)",
+        url: "https://www.figma.com/file/t4FU4FKmUxrAktUocoPwuV/Dental-Check-(Copy)?node-id=0%3A1",
+        title: "Figma Interactive Prototype",
       },
       slides: {
-        // url: "https://docs.google.com/presentation/d/1PTpWswLwuLzsqJz7TBFP6K1iuU8yEPU5/edit?usp=sharing&ouid=117905099578856205481&rtpof=true&sd=true",
-        // title: "Project Presentation Slides",
-        title: "Project Presentation Slides (coming soon)",
+        url: "https://drive.google.com/file/d/15HFPy1F9Wgh4UIpQJjmexTXeqzeZshF_/view?usp=sharing",
+        title: "Project Presentation Slides",
       },
       word: {
-        // url: "https://docs.google.com/document/d/1rQs8atM8m7btMVb658ghpTFUVqzc5xVX/edit?usp=sharing&ouid=117905099578856205481&rtpof=true&sd=true",
-        // title: "Prototype in Word Document",
-        title: "Prototype in Word Document (coming soon)",
+        url: "https://drive.google.com/file/d/1FyxrpdGthBdIKb-UgETVlc8ztMCJoOS8/view?usp=sharing",
+        title: "Prototype in Word Document",
       },
     },
     {
@@ -131,31 +139,32 @@ function App() {
   const [jobs, setJobs] = useState([
     {
       image: {
-        src: jobSFU,
-        alt: "Simon Fraser University school logo, short hand 'SFU' on the top within a red box, school full name at the buttom",
-      },
-      title: "Research Assistant",
-      description:
-        "· Formulated prototype features and designed through 50 literature reviews and user surveys\n" +
-        "· Iteratively developed a Chrome Extension that was used by 20 participants with JS and Google Sheet backend\n" +
-        "· Led user studies for multiple sessions and drafted paper manuscript, pending submission to ACM CHI",
-      company: "Simon Fraser University",
-      interval: "Jun. 2022 - Now",
-      github: {
-        // url: "https://github.com/Hongwei-W/accessible_classroom",
-        title: "GitHub (coming soon)",
-      },
-    },
-    {
-      image: {
         src: jobUAlberta,
         alt: "UAlberta school logo, the logo is on the right, the school full name is on the right",
       },
-      title: "Research Assistant",
+      title: "Research Assistant/Prototyper",
       description:
-        "· Refactored user study prototype database, connected NLP model\n",
+        "· Developed Cree predictive text interface with various trained NLP models, written in Django, JS, and Google form\n" +
+        "· Conducted user studies for the granularities to prediction and Cree learning, drafted paper for IJAIED journal",
       company: "University of Alberta",
       interval: "Sep. 2022 - Now",
+    },
+    {
+      image: {
+        src: jobSFU,
+        alt: "Simon Fraser University school logo, short hand 'SFU' on the top within a red box, school full name at the buttom",
+      },
+      title: "Research Assistant/Prototyper",
+      description:
+        "· Iteratively developed a Chrome Extension for supporting the d/Deaf and hard-of-hearing (DHH) community in virtual conferencing (VC) using JS and Google App Script, formulated features through formative user studies\n" +
+        "· Proven to facilitate VC’s inclusivity and accessibility by testing with DHH participants in mocked seminars\n" +
+        "· Drafted paper manuscript that was submitted to ACM CHI conference, preprint available upon request",
+      company: "Simon Fraser University",
+      interval: "Jun. 2022 - Now",
+      // github: {
+      //   // url: "https://github.com/Hongwei-W/accessible_classroom",
+      //   title: "GitHub (coming soon)",
+      // },
     },
     {
       image: {
@@ -164,11 +173,11 @@ function App() {
       },
       title: "Software Developer",
       description:
-        "· Achieved top 3 contributor by delivering 3 major reliable features according to MQTT protocol in C\n" +
-        "· Designed and carried out product’s interface and documentation by iteratively researching needs and feedback\n" +
-        "· Efficiently communicated with the manager for prioritized tickets and sprints with scrum practices and agile tools\n" +
-        "· Launched 1 major release (0.3.2) with the assistance of the manager and reached 400+ GitHub starred users",
-      company: "EMQ Co. Ltd.",
+        "· Achieved top 3 contributor by delivering MQTT broker clean_session feature, aligned MQTT protocol, written in C\n" +
+        "· Launched 1 major release (0.3.2) with the assistance of the manager and reached 400+ GitHub starred users\n" +
+        "· Redesigned broker’s Linux interface and product documentation iteratively, by researching needs and feedback\n" +
+        "· Efficiently communicated with the manager for prioritizing tickets with scrum practices, used Jira and Slack",
+      company: "EMQ Technologies Co. Ltd.",
       interval: "Jan. 2021 - Jul. 2021",
       github: {
         url: "https://github.com/emqx/nanomq/pulls?q=is%3Apr+is%3Aclosed+author%3AHongwei-W",
@@ -196,6 +205,7 @@ function App() {
       linkedIn: "https://www.linkedin.com/in/hongwei-wang/",
       github: "https://github.com/hongwei-W/",
       leetcode: "https://leetcode.com/wanghw22/",
+      resume: "https://drive.google.com/file/d/1yNjSM_7770cEMoFCg0iR2Ib0ZphfaVKK/view?usp=sharing",
     },
   ]);
 

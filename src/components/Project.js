@@ -14,12 +14,12 @@ const Project = ({
   return (
     <div className="Project list-item section container-fluid">
       <div className="row">
-        <div className="image col-4 overflow-hidden text-center">
+        {image && (<div className="image col-4 overflow-hidden text-center">
           <img alt={image.alt} src={image.src} />
-        </div>
-        <div className="project col-8">
-          <div className="row">
-            <div className="col project-description flexbox-container">
+        </div>) }
+        <div className={"project " + (image === undefined ? "col-11" : "col-7")}>
+
+
               <div className="title t1 sub-list-item">{title}</div>
               <div className="description sub-list-item">{description}</div>
               <div className="skill-set sub-list-item">
@@ -28,7 +28,9 @@ const Project = ({
               <div className="skill-set sub-list-item">
                 <span className="t2">Completion Date</span>: {completionDate}
               </div>
-            </div>
+        </div>
+
+
 
             <div className="col-1 project-link flexbox-container">
               {github && (
@@ -86,8 +88,8 @@ const Project = ({
                 </a>
               )}
             </div>
-          </div>
-        </div>
+
+
       </div>
     </div>
   );

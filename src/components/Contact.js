@@ -3,17 +3,17 @@ const Contact = ({ contact }) => {
     <div className="Contact flexbox-container section">
       {/*{contact.map((contact, index) => (*/}
       <>
+        {contact[0].resume && (
+          <div>
+            <a href={contact[0].resume} target="_blank" title="Resume">
+              <i className="fa-regular fa-file"></i>
+            </a>
+          </div>
+        )}
         {contact[0].linkedIn && (
           <div>
             <a href={contact[0].linkedIn} target="_blank" title="LinkedIn">
               <i className="fa-brands fa-linkedin-in"></i>
-            </a>
-          </div>
-        )}
-        {contact[0].resume && (
-          <div>
-            <a href={contact[0].resume} target="_blank" title="Resume">
-              <i className="fa-solid fa-file-user"></i>
             </a>
           </div>
         )}
