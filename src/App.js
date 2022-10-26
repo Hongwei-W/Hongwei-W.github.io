@@ -145,7 +145,7 @@ function App() {
       title: "Research Assistant/Prototyper",
       description:
         "· Developed Cree predictive text interface with various trained NLP models, written in Django, JS, and Google form\n" +
-        "· Conducted user studies for the granularities to prediction and Cree learning, drafted paper for IJAIED journal",
+        "· Conducted user studies for the granularities to prediction and Cree learning, drafted paper manuscript",
       company: "University of Alberta",
       interval: "Sep. 2022 - Now",
     },
@@ -158,7 +158,7 @@ function App() {
       description:
         "· Iteratively developed a Chrome Extension for supporting the d/Deaf and hard-of-hearing (DHH) community in virtual conferencing (VC) using JS and Google App Script, formulated features through formative user studies\n" +
         "· Proven to facilitate VC’s inclusivity and accessibility by testing with DHH participants in mocked seminars\n" +
-        "· Drafted paper manuscript that was submitted to ACM CHI conference, preprint available upon request",
+        "· Drafted paper manuscript, preprint available upon request",
       company: "Simon Fraser University",
       interval: "Jun. 2022 - Now",
       // github: {
