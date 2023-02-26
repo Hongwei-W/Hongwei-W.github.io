@@ -267,3 +267,10 @@ a:hover {
 .Contact i.fa-at:hover + .tooltiptext {
     visibility: visible;
 }
+
+.Copyright.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

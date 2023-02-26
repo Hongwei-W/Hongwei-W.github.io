@@ -8,6 +8,7 @@ import projectAccessible from "./static/img/project_accessible.png";
 import projectSocial from "./static/img/project_social.png";
 import projectDental from "./static/img/project_dental.png";
 import projectHabit from "./static/img/project_habit.png";
+import jobSAP from "./static/img/job_SAP.png";
 import jobSFU from "./static/img/job_SFU.png";
 import jobEMQ from "./static/img/job_EMQ.png";
 import jobAbercrombie from "./static/img/job_abercrombie.png";
@@ -18,6 +19,7 @@ import Projects from "./components/Projects";
 import Jobs from "./components/Jobs";
 import Contact from "./components/Contact";
 import Divider from "./components/Divider";
+import Copyright from "./components/Copyright";
 
 function App() {
   const [educations, setEducations] = useState([
@@ -54,12 +56,13 @@ function App() {
     //   completionDate: "Constantly Updating",
     // },
     {
-      title: "PSRS Parallel Sorting by Random Sampling Algorithm Implementation",
+      title:
+        "PSRS Parallel Sorting by Random Sampling Algorithm Implementation",
       description:
         "Implemented SPMD program that reached 5 times speedup on a shared memory multi-processor system, with C++ and pthread library",
       word: {
         url: "https://drive.google.com/file/d/1RyFB7Fn5Uoo6dcg9H9EfRiWwP61RPPxQ/view?usp=sharing",
-        title: "Implementation Report"
+        title: "Implementation Report",
       },
       skillSet: "C++, pthread (multi-threading), Linux",
       completionDate: "Sep. 2022",
@@ -139,6 +142,15 @@ function App() {
   const [jobs, setJobs] = useState([
     {
       image: {
+        src: jobSAP,
+        alt: "SAP Inc. logo, the logo has a background color of blue with three letter 's', 'a', 'p' in the middle",
+      },
+      title: "Software Developer",
+      company: "SAP Inc.",
+      interval: "Jan. 2023 - Now",
+    },
+    {
+      image: {
         src: jobUAlberta,
         alt: "UAlberta school logo, the logo is on the right, the school full name is on the right",
       },
@@ -147,7 +159,7 @@ function App() {
         "· Developed Cree predictive text interface with various trained NLP models, written in Django, JS, and Google form\n" +
         "· Conducted user studies for the granularities to prediction and Cree learning, drafted paper manuscript",
       company: "University of Alberta",
-      interval: "Sep. 2022 - Now",
+      interval: "Sep. 2022 - Dec. 2022",
     },
     {
       image: {
@@ -205,9 +217,14 @@ function App() {
       linkedIn: "https://www.linkedin.com/in/hongwei-wang/",
       github: "https://github.com/hongwei-W/",
       leetcode: "https://leetcode.com/wanghw22/",
-      resume: "https://drive.google.com/file/d/1yNjSM_7770cEMoFCg0iR2Ib0ZphfaVKK/view?usp=sharing",
+      resume:
+        "https://drive.google.com/file/d/1yNjSM_7770cEMoFCg0iR2Ib0ZphfaVKK/view?usp=sharing",
     },
   ]);
+
+  const [copyright, setCopyright] = useState({
+    msg: "© 2023 Hongwei Wang All right reserved",
+  });
 
   return (
     <div className="App">
@@ -215,12 +232,13 @@ function App() {
       <Intro />
       <Divider text="education" id="EDUCATION" />
       <Educations educations={educations} />
-      <Divider text="project" id="PROJECT" />
-      <Projects projects={projects} />
       <Divider text="work" id="WORK" />
       <Jobs jobs={jobs} />
+      <Divider text="project" id="PROJECT" />
+      <Projects projects={projects} />
       <Divider text="contact" id="CONTACT" />
       <Contact contact={contact} />
+      <Copyright copyright={copyright} />
     </div>
   );
 }

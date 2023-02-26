@@ -12,8 +12,11 @@ const Intro = () => {
       <div className="intro section">
         <span>
           <span className="t3">Hongwei Wang</span> (pronoun: he/him) is a
-          fourth-year Computing Science student at the University of Alberta. He
-          is also a current Research Assistant in{" "}
+          fourth-year Computing Science student at the{" "}
+          <a href="https://www.ualberta.ca/index.html">University of Alberta</a>{" "}
+          and is currently working for{" "}
+          <a href="https://www.sap.com/index.html">SAP Inc.</a> as a software
+          developer. He was also a current Research Assistant in{" "}
           <a href="https://www.sfu.ca/~xingdong/">Dr. Xing-dong Yang's</a>{" "}
           (Simon Fraser University -{" "}
           <a href="https://ixlab.cs.sfu.ca/">ixLab</a>) group and{" "}
