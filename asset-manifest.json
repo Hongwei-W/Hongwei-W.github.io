@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b10a1ec1.css",
-    "main.js": "/static/js/main.7ce391e2.js",
+    "main.css": "/static/css/main.5504bf70.css",
+    "main.js": "/static/js/main.bbb12774.js",
     "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
     "static/media/project_homepage.png": "/static/media/project_homepage.a95320a8f25fb03de84e.png",
     "static/media/project_dental.png": "/static/media/project_dental.3436ef2a0e124c2107ba.png",
@@ -14,12 +14,12 @@
     "static/media/ualberta_logo.png": "/static/media/ualberta_logo.e9f576e637e98be7afb8.png",
     "static/media/job_SFU.png": "/static/media/job_SFU.ae7ef8d8c6a6fdf295a8.png",
     "index.html": "/index.html",
-    "main.b10a1ec1.css.map": "/static/css/main.b10a1ec1.css.map",
-    "main.7ce391e2.js.map": "/static/js/main.7ce391e2.js.map",
+    "main.5504bf70.css.map": "/static/css/main.5504bf70.css.map",
+    "main.bbb12774.js.map": "/static/js/main.bbb12774.js.map",
     "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b10a1ec1.css",
-    "static/js/main.7ce391e2.js"
+    "static/css/main.5504bf70.css",
+    "static/js/main.bbb12774.js"
   ]
 }
