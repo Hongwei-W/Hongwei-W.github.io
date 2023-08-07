@@ -225,6 +225,7 @@ a:hover {
 
 .Job .job-link {
     width: 3rem;
+    flex-shrink: 0;
 }
 
 .Job .job-header .text {

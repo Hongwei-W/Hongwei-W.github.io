@@ -146,6 +146,13 @@ function App() {
         alt: "SAP Inc. logo, the logo has a background color of blue with three letter 's', 'a', 'p' in the middle",
       },
       title: "Software Developer",
+      description:
+        "· Reconstructed a lightweight compliance evaluation web app: refactored python flask RESTful back-end logic with 60% less code and 90% test coverage, while utilizing Controller-Service-Repository pattern; collaborated with stakeholders on MongoDB models; and designed groundbreaking UI/UX in Figma and with Angular\n" +
+        "· Showcased innovation by training a compliance instruction generator with ChatGPT to automate the workflow\n" +
+        "· Improved source code scrapers to at least 6x speedup, using python libraries such as scrapy and multithreading\n" +
+        "· Demonstrated ownership and leadership by promoting exemplary code standards, conducting meticulous code reviews, managing timelines and Github backlog, and coordinating work amongst intern team members\n" +
+        "· Exhibited initiative through self-learning of CI/CD methodology, including related tools such as Jenkins and K8S\n" +
+        "· Gained manager’s recognition in SAP Fast Track program for outstanding intern performance",
       company: "SAP Inc.",
       interval: "Jan. 2023 - Now",
     },
@@ -156,7 +163,7 @@ function App() {
       },
       title: "Research Assistant/Prototyper",
       description:
-        "· Developed Cree predictive text interface with various trained NLP models, written in Django, JS, and Google form\n" +
+        "· Developed predictive text interface with trained NLP models for First Nations Cree language; written in Django, JS\n" +
         "· Conducted user studies for the granularities to prediction and Cree learning, drafted paper manuscript",
       company: "University of Alberta",
       interval: "Sep. 2022 - Dec. 2022",
@@ -169,10 +176,10 @@ function App() {
       title: "Research Assistant/Prototyper",
       description:
         "· Iteratively developed a Chrome Extension for supporting the d/Deaf and hard-of-hearing (DHH) community in virtual conferencing (VC) using JS and Google App Script, formulated features through formative user studies\n" +
-        "· Proven to facilitate VC’s inclusivity and accessibility by testing with DHH participants in mocked seminars\n" +
-        "· Drafted paper manuscript, preprint available upon request",
+        "· Facilitated mock VC seminars with DHH participants to test my extension for its inclusivity and accessibility; extension was awarded 90% overall rating for supporting inclusiveness and the willingness of using it in future\n" +
+        "· Drafted portion of paper manuscript, preprint available upon request",
       company: "Simon Fraser University",
-      interval: "Jun. 2022 - Now",
+      interval: "Jun. 2022 - Sept. 2022",
       // github: {
       //   // url: "https://github.com/Hongwei-W/accessible_classroom",
       //   title: "GitHub (coming soon)",
@@ -187,7 +194,7 @@ function App() {
       description:
         "· Achieved top 3 contributor by delivering MQTT broker clean_session feature, aligned MQTT protocol, written in C\n" +
         "· Launched 1 major release (0.3.2) with the assistance of the manager and reached 400+ GitHub starred users\n" +
-        "· Redesigned broker’s Linux interface and product documentation iteratively, by researching needs and feedback\n" +
+        "· Redesigned broker’s Linux interface and product documentation through design thinking\n" +
         "· Efficiently communicated with the manager for prioritizing tickets with scrum practices, used Jira and Slack",
       company: "EMQ Technologies Co. Ltd.",
       interval: "Jan. 2021 - Jul. 2021",
@@ -203,11 +210,10 @@ function App() {
       },
       title: "Sales & Stock Associate",
       description:
-        "· Crushed morning MVT and ATV multiple times by identifying customers’ segments and providing useful one-on-one outfit recommendations\n" +
-        "· Awarded store MVP 2 times and facilitated training employees with managers with proven communication skills\n" +
-        "· Promoted to permanent from seasonal employee and awarded store MVP within the first month of job started",
-      company: "Abercrombie & Fitch Edmonton + Hollister Qingdao",
-      interval: "Jul. 2018 – Oct. 2020",
+        "· Awarded three times MVPs in two stores in Canada and China, crushed morning sale records more than once\n" +
+        "· Promoted to stock associate to sales (Qingdao), permanent from seasonal employee (Edmonton)",
+      company: "Abercrombie Richmond, Edmonton, Hollister Qingdao",
+      interval: "Jul. 2018 – Now",
     },
   ]);
 
@@ -218,7 +224,7 @@ function App() {
       github: "https://github.com/hongwei-W/",
       leetcode: "https://leetcode.com/wanghw22/",
       resume:
-        "https://drive.google.com/file/d/1yNjSM_7770cEMoFCg0iR2Ib0ZphfaVKK/view?usp=sharing",
+        "https://drive.google.com/file/d/19pgRCTvxd2erg2PaHiKbZv62RHZglQ0-/view?usp=sharing",
     },
   ]);
 
