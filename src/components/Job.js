@@ -11,6 +11,8 @@ const Job = ({
   figma,
   word,
   slides,
+  medal,
+  comment
 }) => {
   return (
     <div className="Job list-item section flexbox-container">
@@ -69,13 +71,31 @@ const Job = ({
             <i className="fa-solid fa-file-powerpoint"></i>
           </a>
         )}
+        {medal && (
+          <a
+            href={medal.url}
+            target="_blank"
+            title={medal.title ? medal.title : "Medal"}
+          >
+            <i className="fa-solid fa-medal"></i>
+          </a>
+        )}
+        {comment && (
+          <a
+            href={comment.url}
+            target="_blank"
+            title={comment.title ? comment.title : "Comment"}
+          >
+            <i className="fa-solid fa-comment-dots"></i>
+          </a>
+        )}
       </div>
       <div className="job">
         <div className=" job-description flexbox-container">
           <div className="job-header flexbox-container sub-list-item">
             <div className="text">
               <div className="t1">{title}</div>
-              <div className="">
+              <div className="t4">
                 <span className="company">{company}</span>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="interval">{interval}</span>

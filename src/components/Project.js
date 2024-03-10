@@ -1,6 +1,7 @@
 const Project = ({
   image,
   title,
+  subtitle,
   description,
   skillSet,
   github,
@@ -19,8 +20,8 @@ const Project = ({
         </div>) }
         <div className={"project " + (image === undefined ? "col-11" : "col-7")}>
 
-
-              <div className="title t1 sub-list-item">{title}</div>
+              <div className="title t1">{title}</div>
+              <div className="subtitle t4 sub-list-item">{subtitle}</div>
               <div className="description sub-list-item">{description}</div>
               <div className="skill-set sub-list-item">
                 <span className="t2">Skill set</span>: {skillSet}

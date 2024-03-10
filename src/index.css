@@ -4,7 +4,7 @@
 
 body {
     background-color: #F7F8FC;
-    font-family: 'Mulish';
+    font-family: 'Open Sans';
     display: flex;
     height: 100vh;
 }
@@ -120,10 +120,16 @@ html {
 }
 
 .t3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: 'Lora';
     font-style: italic;
     font-weight: bold;
+}
+
+.t4 {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: medium;
 }
 
 a {
@@ -145,19 +151,27 @@ a:hover {
 }
 
 .Intro .image {
+    flex: 1;
     max-width: 50%;
-    max-height: 30rem;
     width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Intro img {
     max-height: 100%;
     max-width: 100%;
-    width: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     border-radius: 0.8rem;
 }
 
 .Intro .intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     max-width: 50%;
     line-height: 100px;
 }
@@ -195,7 +209,6 @@ a:hover {
     overflow: hidden;
 }
 
-
 .Projects .list-item:not(:last-child), .Jobs .list-item:not(:last-child) {
     margin-bottom: 1.6rem;
 }
@@ -210,6 +223,7 @@ a:hover {
 }
 
 .Project .project-link {
+    padding-top: 0.5rem;
     row-gap: 1.2rem;
     text-align: right;
 }
@@ -224,6 +238,8 @@ a:hover {
 }
 
 .Job .job-link {
+    padding-top: 0.5rem;
+    row-gap: 1.2rem;
     width: 3rem;
     flex-shrink: 0;
 }
@@ -234,11 +250,13 @@ a:hover {
 
 .Job .job-header .image {
     max-height: 3rem;
-    max-width: 25rem;
+    max-width: 15rem;
 }
 
 .Job .job-header img {
     max-height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .Contact {

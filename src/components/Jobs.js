@@ -18,6 +18,8 @@ const Jobs = ({ jobs }) => {
           figma={job.figma}
           word={jobs.word}
           slides={jobs.slides}
+          medal={job.medal}
+          comment={job.comment}
         />
       ))}
     </div>

@@ -8,6 +8,7 @@ const Projects = ({ projects }) => {
           key={index}
           image={project.image}
           title={project.title}
+          subtitle={project.subtitle}
           description={project.description}
           completionDate={project.completionDate}
           skillSet={project.skillSet}

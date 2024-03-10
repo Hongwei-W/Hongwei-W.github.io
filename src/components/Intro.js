@@ -11,26 +11,15 @@ const Intro = () => {
       </div>
       <div className="intro section">
         <span>
-          <span className="t3">Hongwei Wang</span> (pronoun: he/him) is a
-          fourth-year Computing Science student at the{" "}
-          <a href="https://www.ualberta.ca/index.html">University of Alberta</a>{" "}
-          and a software developer at{" "}
-          <a href="https://www.sap.com/index.html">SAP Inc.</a>, dedicated to
-          crafting user-centric web apps for end users and pioneering the
-          integration of innovative technologies like GPT.
+          <span className="t3">Hongwei Wang</span> (pronouns: he/him) is a DevOps Engineer Intern at{" "}
+          <a href="https://fullscript.com/">Fullscript</a> working on CLI tools in Go, who recently graduated from the{" "}
+          <a href="https://www.ualberta.ca/index.html">University of Alberta</a>{" "} with a Bachelor of Science in Computing Science.
+          He is dedicated to crafting user-centric applications, web apps or CLI tools, for end users.
           <br />
           <br />
-          He was also a Research Assistant in{" "}
-          <a href="https://www.sfu.ca/~xingdong/">Dr. Xing-dong Yang's</a>{" "}
-          (Simon Fraser University -{" "}
-          <a href="https://ixlab.cs.sfu.ca/">ixLab</a>) group and{" "}
-          <a href="https://apps.ualberta.ca/directory/person/demmanse">
-            Dr. Carrie Demmans Epp's
-          </a>{" "}
-          (University of Alberta -{" "}
-          <a href="https://spaces.facsci.ualberta.ca/edtekla/">EdTeKLA</a>)
-          Group. That's right, he has a special interest in Human-Computer
-          Interaction (HCI) and accessibility tools.
+          He has extensive experience and expertise. His past internships at <a href="https://www.sap.com/canada/index.html">SAP Canada</a> and <a href="https://www.emqx.com/en">EMQ Technologies</a> have fostered his significant industrial-level knowledge in Python back-end development and CLI development in C respectively. He also served as a Research Assistant at <a href="https://www.sfu.ca/">Simon Fraser University</a>{" "} -{" "}
+          <a href="https://ixlab.cs.sfu.ca/">ixLab</a> and <a href="https://www.ualberta.ca/index.html">University of Alberta</a>{" "}-{" "}
+          <a href="https://spaces.facsci.ualberta.ca/edtekla/">EdTeKLA</a>. He has been leveraging his academic insights to drive innovation in the industry.
           <br />
           <br />
           He is passionate about travel, cherishing every opportunity to explore
@@ -38,7 +27,7 @@ const Intro = () => {
           creative outlet, he shoots on Fuji XS-10.
           <br />
           <br />
-          You can reach him via email `hongwei2[at]ualberta[dot]ca`, more
+          You can reach him via email `wanghw22[at]gmail[dot]com`, more
           contact info underneath.
         </span>
       </div>
