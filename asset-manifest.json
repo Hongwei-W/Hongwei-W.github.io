@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5504bf70.css",
-    "main.js": "/static/js/main.bbb12774.js",
+    "main.css": "/static/css/main.9994d237.css",
+    "main.js": "/static/js/main.d75b1335.js",
     "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
     "static/media/project_homepage.png": "/static/media/project_homepage.a95320a8f25fb03de84e.png",
+    "static/media/project_ticket.jpg": "/static/media/project_ticket.0e512afaff0b9e1a6ea9.jpg",
     "static/media/project_dental.png": "/static/media/project_dental.3436ef2a0e124c2107ba.png",
     "static/media/project_habit.png": "/static/media/project_habit.c9c6c84253bae709a610.png",
     "static/media/hongwei.JPG": "/static/media/hongwei.76b735306bec7cdb0019.JPG",
@@ -11,15 +12,16 @@
     "static/media/job_SAP.png": "/static/media/job_SAP.980c017207414944cdf3.png",
     "static/media/project_social.png": "/static/media/project_social.99272eaa7433d21f7b98.png",
     "static/media/job_UAlberta.png": "/static/media/job_UAlberta.b4e2856735f3c974a67e.png",
+    "static/media/job_fullscript.svg": "/static/media/job_fullscript.36d7aae0a52da5c2d3a0a403a7d62259.svg",
     "static/media/ualberta_logo.png": "/static/media/ualberta_logo.e9f576e637e98be7afb8.png",
     "static/media/job_SFU.png": "/static/media/job_SFU.ae7ef8d8c6a6fdf295a8.png",
     "index.html": "/index.html",
-    "main.5504bf70.css.map": "/static/css/main.5504bf70.css.map",
-    "main.bbb12774.js.map": "/static/js/main.bbb12774.js.map",
+    "main.9994d237.css.map": "/static/css/main.9994d237.css.map",
+    "main.d75b1335.js.map": "/static/js/main.d75b1335.js.map",
     "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5504bf70.css",
-    "static/js/main.bbb12774.js"
+    "static/css/main.9994d237.css",
+    "static/js/main.d75b1335.js"
   ]
 }
