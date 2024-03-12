@@ -1,4 +1,4 @@
 const Copyright = ({ copyright }) => {
-  return <div className="Copyright msg t1">{copyright.msg}</div>;
+  return <div className="Copyright msg">{copyright.msg}</div>;
 };
 export default Copyright;
