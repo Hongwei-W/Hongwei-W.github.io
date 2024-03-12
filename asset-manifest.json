@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9994d237.css",
-    "main.js": "/static/js/main.d75b1335.js",
+    "main.js": "/static/js/main.ef0c02e8.js",
     "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
     "static/media/project_homepage.png": "/static/media/project_homepage.a95320a8f25fb03de84e.png",
     "static/media/project_ticket.jpg": "/static/media/project_ticket.0e512afaff0b9e1a6ea9.jpg",
@@ -17,11 +17,11 @@
     "static/media/job_SFU.png": "/static/media/job_SFU.ae7ef8d8c6a6fdf295a8.png",
     "index.html": "/index.html",
     "main.9994d237.css.map": "/static/css/main.9994d237.css.map",
-    "main.d75b1335.js.map": "/static/js/main.d75b1335.js.map",
+    "main.ef0c02e8.js.map": "/static/js/main.ef0c02e8.js.map",
     "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9994d237.css",
-    "static/js/main.d75b1335.js"
+    "static/js/main.ef0c02e8.js"
   ]
 }
