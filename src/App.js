@@ -289,7 +289,7 @@ function App() {
   ]);
 
   const [copyright, setCopyright] = useState({
-    msg: "© 2024 Hongwei Wang All right reserved",
+    msg: "© 2024 Hongwei Wang. All rights reserved.",
   });
 
   return (
