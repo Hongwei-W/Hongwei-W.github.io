@@ -199,7 +199,7 @@ function App() {
       </>
       ), 
       company: "SAP Inc.",
-      interval: "Jan. 2023 - Now",
+      interval: "Jan. 2023 - Sep. 2023",
       medal: {
         url: "https://www.credly.com/badges/3fe6e4dc-6784-4fbc-921e-63dc3dbbb735/linked_in_profile",
         title: "SAP FastTrack winner for outstanding performance, recognized by the manager",
@@ -272,8 +272,8 @@ function App() {
       description:
         "· Awarded three times MVPs in two stores in Canada and China, crushed morning sale records more than once\n" +
         "· Promoted to stock associate to sales (Qingdao), permanent from seasonal employee (Edmonton)",
-      company: "Abercrombie Richmond, Edmonton, Hollister Qingdao",
-      interval: "Jul. 2018 – Now",
+      company: "Abercrombie & Fitch",
+      interval: "Jul. 2018 - Sep. 2023 (29 months)",
     },
   ]);
 
