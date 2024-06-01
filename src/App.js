@@ -41,11 +41,21 @@ function App() {
 
   const [projects, setProjects] = useState([
     {
-      title: "A Full Lifecycle of a Web Application Deployment",
+      title: "Reward Hotel Room Checker",
+      subtitle: "DevOps Development + API Client",
+      description: "Developed a Python scraper with Selenium for scraping hotel prices periodically and pushing the lowest price when found via Pushover. It was containerized and stored in Azure Container Registry, consumed by Azure Container App, and triggered by Azure Function. Later it was deployed on a Raspberry Pi due to cost concerns.",
+      skillSet: "Python, Selenium, Azure Container Registry, Azure Container App, Azure Blob Storage, Pushover",
+      github: {
+        title: "GitHub Repository of the API Client, available upon request",
+      },
+      completionDate: "May. 2024 (Continuously Updating)",
+    },
+    {
+      title: "A Full Lifecycle of a Web Application Provisioning",
       subtitle: "DevOps Development",
       description: "Completed an end-to-end DevOps workflow through a course: configured a VPS and server TLS certificates using Ansible, and created GitLab CI/CD pipelines for Python application integration and deployment on Docker containers",
       skillSet: "Ansible, AWS EC2, Dokcer, GitLab CI/CD, Python",
-      completionDate: "Work In Progress (updated: Mar. 2024)",
+      completionDate: "Feb. 2024",
     },
     {
       image: {
@@ -96,7 +106,7 @@ function App() {
         alt: "the accessible remote classroom chrome extension dashboard, it display my current speaking volume and my speech rate; it also has some feedback from the meeting participants",
       },
       title: "Accessible Remote Classroom Chrome Extension",
-      subtitle: "Fullstack Development",
+      subtitle: "Fullstack Development, Human Computer Interaction (HCI) Research",
       description:
         "This Chrome Extension helps the d/Deaf and hard-of-hearing (DHH) community participate and present on Google Meet. Accessible Classroom automatically measures your voice volume and speech rate, analyzes meeting participation and voice vs text chat usage, gives DHH people a chance to raise their accessibility accommodation and draw everyone's attention if there is a violation. Demo and application are available upon request.",
       skillSet: "Google Sheet (App Script), HTML/CSS, JavaScript, Bootstrap",
@@ -131,7 +141,7 @@ function App() {
         alt: "a small chat window overlay on the dash board of dental check app where the patient (user) is chatting with his doctor",
       },
       title: "Dental Check -- A Human-Centered Software Prototype",
-      subtitle: "UI/UX Design",
+      subtitle: "UI/UX Design, Human Computer Interaction (HCI) Research",
       description:
         "With Dental Check, dentists can track patients' records on an iPad. After dentists fill out periodontal charts, the system automatically builds an interactive 3D model of the patient's teeth. Build-in AI analyzer finds out lesions that are worth noticing and marks with colors. Dentists can interact with the model and edit these marks, they can also compare one patient's previous records by layering one on top of the others. Patients can also track their dentistry visits by creating their accounts and seeing their model on the dentists' permit.",
       skillSet: "Figma, Human-Centered Design, Usability Research",
@@ -169,6 +179,15 @@ function App() {
   const [jobs, setJobs] = useState([
     {
       image: {
+        src: jobSAP,
+        alt: "SAP Inc. logo, the logo has a background color of blue with three letter 's', 'a', 'p' in the middle",
+      },
+      title: "Software Developer Intern",
+      company: "SAP Inc.",
+      interval: "May. 2023 - Present",
+    },
+    {
+      image: {
         src: jobFullscript,
         alt: "Fullscript logo, the logo is a fullscript's green leaf and the company name is on the right",
       },
@@ -180,20 +199,24 @@ function App() {
         "· Collaborated on code reviews for all team merge requests, including those outside of my direct responsibilities",
       company: "Fullscript",
       interval: "Jan. 2024 - Apr. 2024",
+      comment: {
+        url: "https://www.linkedin.com/in/hongwei-wang/#recommendations",
+        title: "Recommendations from colleagues",
+      }
     },
     {
       image: {
         src: jobSAP,
         alt: "SAP Inc. logo, the logo has a background color of blue with three letter 's', 'a', 'p' in the middle",
       },
-      title: "Software Developer",
+      title: "Software Developer Intern",
       description:(
       <>
-        <span style={{ fontSize: '1.025rem' }}>Full-Stack Development of a Compliance Evaluation Web Application</span><br /> 
+        <span style={{ fontSize: '1.025rem', fontWeight: 'lighter' }}>Full-Stack Development of a Compliance Evaluation Web Application</span><br /> 
         · Reconstructed a Python Flask back-end using MVC design patterns, achieving 90% test coverage with pytest, and prompt-engineered GPT-4 to automate 50% of the compliance instruction generation; remodeled its MongoDB schema<br />
         · Launched a pilot Angular front-end which utilized Figma for UI/UX designs by a two-person team, later expanded it into an extensible project, and smoothly transitioned both front and back-end to a ten-person team<br />
         · Managed an Apache server deployment and initiated an experiment with Jenkins CD pipelines for evolving business needs<br />
-        <span style={{ fontSize: '1.025rem' }}>Python Source Code Scrapers</span><br />
+        <span style={{ fontSize: '1.025rem', fontWeight: 'lighter' }}>Python Source Code Scrapers</span><br />
         · Used Agile practices to improve Source Code Scrapers by at least a 6-fold increase in speed, using Python libraries such as Scrapy, Selenium, bs4 for scraping, and Pandas for data analysis<br />
         · Containerized the scrapers with docker for ensuring portability and consistency across platforms<br />
       </>
